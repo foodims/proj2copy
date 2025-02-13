@@ -1,0 +1,7 @@
+ROOT=.
+DEVICE_ID[/home/studio/workspace/project1foodims]=066DFF555187534867160842
+DEVICE_TYPE[/home/studio/workspace/project1foodims]=connected
+DEVICE_ID[/home/studio/workspace/project2foodims]=066DFF555187534867160825
+DEVICE_TYPE[/home/studio/workspace/project2foodims]=connected
+TARGET=NUCLEO_F429ZI
+TARGET_CODE=0796
