@@ -101,9 +101,8 @@ headlights = OFF;
 //Checks if driver is sitting down and displays welcome message
 void check_driver_sit_down() {
 if (driver_occupancy_sensor && !driverSitting) {
-    //uartUsb.write("Welcome to an enhanced alarm system model 218-W25\r\n", 51);
-    //uartUsb.write("\r\n", 2);
-    //displayStringWrite("Welcome to an enhanced alarm system model 218-W25\r\n");
+    uartUsb.write("Welcome to an enhanced alarm system model 218-W25\r\n", 51);
+    uartUsb.write("\r\n", 2);
     driverSitting = true;
 }
 }
