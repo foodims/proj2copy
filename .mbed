@@ -5,3 +5,5 @@ DEVICE_ID[/home/studio/workspace/project2foodims]=066DFF555187534867160825
 DEVICE_TYPE[/home/studio/workspace/project2foodims]=connected
 TARGET=NUCLEO_F429ZI
 TARGET_CODE=0796
+DEVICE_ID[/home/studio/workspace/proj2copy]=066DFF555187534867160825
+DEVICE_TYPE[/home/studio/workspace/proj2copy]=connected

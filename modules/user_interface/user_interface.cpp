@@ -11,56 +11,44 @@
 
 #define DISPLAY_REFRESH_TIME_MS 1000
 
-//=====[Declaration of private data types]=====================================
-
-//=====[Declaration and initialization of public global objects]===============
-
-//=====[Declaration of external public global variables]=======================
-
-//=====[Declaration and initialization of public global variables]=============
-
-
-//=====[Declaration and initialization of private global variables]============
-
-//=====[Declarations (prototypes) of private functions]========================
-
-static void userInterfaceDisplayInit();
-static void userInterfaceDisplayUpdate();
-
-//=====[Implementations of public functions]===================================
-
-/*void userInterfaceInit()
+void displayWiperOff() 
 {
-    userInterfaceDisplayInit();
-}*/
-
-void userInterfaceUpdate()
-{
-    userInterfaceDisplayUpdate();
+    displayCharPositionWrite(0, 0);
+    displayStringWrite("Wiper: OFF");
 }
 
-
-//=====[Implementations of private functions]==================================
-
-/*static void userInterfaceDisplayInit()
+void displayWiperHi()
 {
-    displayInit();
-     
-    displayCharPositionWrite ( 0,0 );
-    displayStringWrite( "Tmp:" );
+    displayCharPositionWrite(0, 0);
+    displayStringWrite("Wiper: HI");
+}
 
-    displayCharPositionWrite ( 9,0 );
-    displayStringWrite( "Gas:" );
-    
-    displayCharPositionWrite ( 0,1 );
-    displayStringWrite( "Alarm:" );
-}*/
-
-static void userInterfaceDisplayUpdate()
+void displayWiperLo()
 {
+    displayCharPositionWrite(0, 0);
+    displayStringWrite("Wiper: LO");
+}
 
-        displayCharPositionWrite ( 0,0 );
-        displayStringWrite( "Welcome!" );;
+void displayWiperInt() 
+{
+    displayCharPositionWrite(0, 0);
+    displayStringWrite("Wiper: INT");
+}
 
+void displayDelayShort()
+{
+    displayCharPositionWrite(0, 1);
+    displayStringWrite("Delay: SHORT");
+}
 
+void displayDelayMedium()
+{
+    displayCharPositionWrite(0, 1);
+    displayStringWrite("Delay: MEDIUM");
+}
+
+void displayDelayLong()
+{
+    displayCharPositionWrite(0, 1);
+    displayStringWrite("Delay: LONG");
 }

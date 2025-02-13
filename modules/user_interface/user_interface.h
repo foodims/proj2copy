@@ -9,16 +9,16 @@
 
 //=====[Declarations (prototypes) of public functions]=========================
 
-void userInterfaceInit();
-void userInterfaceUpdate();
-bool userInterfaceCodeCompleteRead();
-void userInterfaceCodeCompleteWrite( bool state );
+void displayWiperOff();
+void displayWiperHi();
+void displayWiperLo();
+void displayWiperInt();
+void displayDelayShort();
+void displayDelayMedium();
+void displayDelayLong();
 
-bool incorrectCodeStateRead();
-void incorrectCodeStateWrite( bool state );
 
-bool systemBlockedStateRead();
-void systemBlockedStateWrite( bool state );
+
 
 //=====[#include guards - end]=================================================
 
