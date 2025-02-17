@@ -16,4 +16,5 @@ The piece used to represent the windshield wiper was a servo motor (a rotary tha
 ### Modular Design:
 <img width="863" alt="Screenshot 2025-02-17 at 2 18 44 PM" src="https://github.com/user-attachments/assets/d4d7498d-5c38-48f6-88e7-67f786d259ef" />
 
-The main.cpp file calls the four different modules, within those modules user inteface calls display, and wiper calls engine.
+The main.cpp file calls the four different modules, within those modules user inteface calls display, and wiper calls engine. Additionally, we put the ignition subsystem from the first two projects into the engine module. 
+
